@@ -4,14 +4,35 @@ as an argument and returns "even" for even
 numbers, and "odd" for odd numbers.
 """
 
-x = 5
-y = x % 2 > 0
+x = 11
+y = x % 2
 
 print(y)
-# True
+
 
 x = 4
-y = x % 2 > 0
+y = x % 2
 
 print(y)
-# False
+
+x = -9
+y = x % 2
+print_text = "zuyg" * (y == 0) + "kent" * y
+print(print_text)
+
+y = 0
+x = "zuyg" * y
+print(x)
+
+
+
+
+
+
+
+
+
+x = -9
+y = x % 2
+print_text = "zuyg" * (y == 0)
+print(print_text)
