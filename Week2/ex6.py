@@ -8,8 +8,6 @@
 # "Matt", 3 ➞ "MattMattMatt"
 # 1990, 7 ➞ "Not A String !!"
 
-x = "Mubashir" * 2
-y = (x != str) * "Not A String !!" and (x == str) * x
-
-print(y)
-# This code didn't work...
+text, repeat = "Matt", 3
+tramabanakan_gorc = type(text) == str
+print(text * repeat * tramabanakan_gorc + "Not A String !!" * (not tramabanakan_gorc))

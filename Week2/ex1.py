@@ -10,7 +10,7 @@
 # "Helen" ➞ "Hello, Helen!"
 # "Mubashir" ➞ "Hello, my Love!"
 
-name = "Matt!"
+"""name = "Matt!"
 greeting = "Hello, "
 result = greeting + name
 
@@ -24,4 +24,11 @@ special_case = greeting + mistake
 expected_result = greeting + name
 
 print(expected_result)
-# Hello, Mubashir!
+# Hello, Mubashir!"""
+
+
+name = input("Enter name: ")
+y = "Hello, " + name
+x = "Hello, my love"
+
+print(x * (name == "Mubashir") + y * (name != "Mubashir"))
